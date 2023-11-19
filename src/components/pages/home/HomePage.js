@@ -4,7 +4,7 @@ import "./home.css"
 export default function Home() {
     return ( 
     <>
-    <h2 id='welcome'> !WelcomE! 
+    <h2 id='welcome'> WelcomE
         <br></br>
         Allow me to introduce myself  &#9823;
         </h2>
