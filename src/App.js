@@ -2,6 +2,7 @@ import { Container } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import './App.css'
+import ContactLink from './components/navbar/OnClick';
 import Navbar from './components/navbar/Nav';
 import Contact from './components/pages/contact/ContactPage';
 import Home from './components/pages/home/HomePage';
@@ -13,7 +14,7 @@ function App() {
   
   switch (window.location.pathname) {
     
-    case "/contact":
+    case ContactLink :
       Components = Contact
       break
     default:
