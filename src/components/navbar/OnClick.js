@@ -1,10 +1,7 @@
 
 
-function ContactLink() {
-    const handleClick = (e) => {
+function ContactLink(e) {
         e.preventDefault();
-
-    }
 }
 
 export default ContactLink;
