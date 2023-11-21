@@ -1,4 +1,4 @@
-
+import ContactLink from "./OnClick"
 
 export default function Navbar() {
     return (
@@ -6,7 +6,7 @@ export default function Navbar() {
             <a href="/" className="page-title">Woody Umstead</a>
             <ul>
                 <li>
-                    <a id="contact" href="./contact">Contact</a>
+                    <a id="contact" onClick={ContactLink} href="./contact">Contact</a>
                 </li>
             </ul>
         </nav>
